@@ -1,0 +1,6 @@
+{
+  "name": "Tasbeeh Reminder",
+  "description": "A visually polished digital Tasbeeh counter and customizable dhikr reminder app designed with an elegant, modern Android aesthetic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

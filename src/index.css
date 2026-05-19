@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-elegant-bg: #0F1113;
+  --color-elegant-panel: #151719;
+  --color-elegant-sidebar: #0A0B0C;
+  --color-elegant-accent: #2D5A27;
+  --color-elegant-text: #E0E2E4;
+  --color-elegant-muted: #8E9299;
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes popup-bounce {
+  0% { transform: scale(0.92); opacity: 0; }
+  60% { transform: scale(1.04); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 24s linear infinite;
+}
+
+.animate-popup-bounce {
+  animation: popup-bounce 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
